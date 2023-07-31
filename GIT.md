@@ -7,7 +7,9 @@
 ==Used to get difference between 2 files==
 
 =='-' indicates deletions ==
+
 =='+' indicates additions==
+
 =='-u' is for unified format (+,-)==
 
 To get diff use:
