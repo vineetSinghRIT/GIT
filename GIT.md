@@ -48,9 +48,9 @@ To apply patch file use:
 
 ==GIT uses the Head alias (also can be thought of as a bookmark) to represent the currently checked out snapshot of the project==
 
-![](Pasted%20image%2020230813130707.png)
+![](Images&Links/Pasted%20image%2020230813130707.png)
 
-### Getting more info about changes
+### Getting more info about change
 
 `git log -p`  Shows the log of changes along with the code changes , useful to check what change broke down the tool
 
