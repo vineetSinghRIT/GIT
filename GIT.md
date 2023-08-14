@@ -34,3 +34,38 @@ To apply patch file use:
 ==Entire directories can also be patched==
 
 
+
+
+# Using GIT locally
+
+## Advanced GIT interaction
+
+### Skipping the staging area
+
+ `git commit -a`   Shortcut to stage any changes to tracked files and commit them in one step 
+
+*If the modified file has not been tracked we need to add it to repo first*
+
+==GIT uses the Head alias (also can be thought of as a bookmark) to represent the currently checked out snapshot of the project==
+
+![](Pasted%20image%2020230813130707.png)
+
+### Getting more info about changes
+
+`git log -p`  Shows the log of changes along with the code changes , useful to check what change broke down the tool
+
+To check individual commit use `git log` to get commits with commit ID , these commit ID can then be used to check code change using
+
+`git show "COMMIT ID" `
+
+To get stats such as no. for lines added or removed use `git log --stat`
+
+To look at unstaged changes at any point used `git diff`
+
+To get more info on changes being added use `git add -p`
+
+To look at staged changes which have not been committed using `git diff --staged`
+
+
+
+``
