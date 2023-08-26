@@ -33,9 +33,6 @@ To apply patch file use:
 
 ==Entire directories can also be patched==
 
-
-
-
 # Using GIT locally
 
 ## Advanced GIT interaction
